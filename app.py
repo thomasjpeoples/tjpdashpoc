@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[90]:
-
-
 import dash
 from dash.dependencies import Input, Output
 import dash_core_components as dcc
@@ -19,11 +16,8 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
-
-# In[95]:
-
-
-#df = pd.read_csv('BDPlus_Data_20190920.csv')
+#df = pd.read_csv('HomeDrive_Data_20190920.csv')
+# Just typed in some dubiour raw data below to save hosting old data in the cloud
 rawdata = [
 ['22/09/2019','Weekly Core Hours',10,'Dave Smith'],
 ['22/09/2019','Weekly Additional Hours',2,'Dave Smith'],
